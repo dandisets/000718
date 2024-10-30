@@ -10,21 +10,36 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Flynn, Garrett (2023) CatalystNeuro Placeholder 2 (Version draft) [Data
-  set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Zaki, Yosif (2024) Aversive experience drives offline ensemble reactivation
+  to link memories across days (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000718/draft
 contributor:
-- affiliation: []
-  email: gflynn@usc.edu
+- email: joe.zaki@icahn.mssm.edu
+  identifier: 0000-0002-8167-0182
   includeInCitation: true
-  name: Flynn, Garrett
+  name: Zaki, Yosif
   roleName:
+  - dcite:Author
+  - dcite:DataCollector
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-11-30T17:07:14.197351+00:00'
-datePublished: '2023-12-15T20:18:57.405857+00:00'
-description: This dandiset is reserved by CatalystNeuro and will be published at a
-  future point in time.
-doi: 10.80507/dandi.123456/0.123456.1234
+description: Memories are encoded in neural ensembles during learning and stabilized
+  by post-learning reactivation. Integrating recent experiences into existing memories
+  ensures that memories contain the most recently available information, but how the
+  brain accomplishes this critical process remains unknown. Here we show that in mice,
+  a strong aversive experience drives the offline ensemble reactivation of not only
+  the recent aversive memory but also a neutral memory formed two days prior, linking
+  the fear from the recent aversive memory to the previous neutral memory. We find
+  that fear specifically links retrospectively, but not prospectively, to neutral
+  memories across days. Consistent with prior studies, we find reactivation of the
+  recent aversive memory ensemble during the offline period following learning. However,
+  a strong aversive experience also increases co-reactivation of the aversive and
+  neutral memory ensembles during the offline period. Finally, the expression of fear
+  in the neutral context is associated with reactivation of the shared ensemble between
+  the aversive and neutral memories. Taken together, these results demonstrate that
+  strong aversive experience can drive retrospective memory-linking through the offline
+  co-reactivation of recent memory ensembles with memory ensembles formed days prior,
+  providing a neural mechanism by which memories can be integrated across days.
 ethicsApproval: []
 id: DANDI:000718/draft
 identifier: DANDI:000718
@@ -33,20 +48,9 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000718/versions/draft/assets/
-name: CatalystNeuro Placeholder 2
+name: Aversive experience drives offline ensemble reactivation to link memories across
+  days
 protocol: []
-publishedBy:
-  endDate: '2023-12-15T20:18:57.405857+00:00'
-  id: urn:uuid:ea6d284a-aab6-4ac7-aeef-0ccd058ace85
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-12-15T20:18:57.405857+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:2e1c77ec-ac14-42fb-b6fa-e2a8332655be
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
