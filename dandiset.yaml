@@ -10,8 +10,8 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Zaki, Yosif (2024) Aversive experience drives offline ensemble reactivation
-  to link memories across days (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000718/draft
+citation: Zaki, Yosif (2024) Offline ensemble co-reactivation links memories across
+  days (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000718/draft
 contributor:
 - email: joe.zaki@icahn.mssm.edu
   identifier: 0000-0002-8167-0182
@@ -23,33 +23,43 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-11-30T17:07:14.197351+00:00'
-description: Memories are encoded in neural ensembles during learning and stabilized
-  by post-learning reactivation. Integrating recent experiences into existing memories
-  ensures that memories contain the most recently available information, but how the
-  brain accomplishes this critical process remains unknown. Here we show that in mice,
-  a strong aversive experience drives the offline ensemble reactivation of not only
-  the recent aversive memory but also a neutral memory formed two days prior, linking
-  the fear from the recent aversive memory to the previous neutral memory. We find
-  that fear specifically links retrospectively, but not prospectively, to neutral
-  memories across days. Consistent with prior studies, we find reactivation of the
-  recent aversive memory ensemble during the offline period following learning. However,
-  a strong aversive experience also increases co-reactivation of the aversive and
-  neutral memory ensembles during the offline period. Finally, the expression of fear
-  in the neutral context is associated with reactivation of the shared ensemble between
-  the aversive and neutral memories. Taken together, these results demonstrate that
-  strong aversive experience can drive retrospective memory-linking through the offline
-  co-reactivation of recent memory ensembles with memory ensembles formed days prior,
-  providing a neural mechanism by which memories can be integrated across days.
+description: Simultaneous calcium imaging with Miniscopes and EEG/EMG experiment during
+  retrospective memory-linking behavioral paradigm, to test whether ensemble co-reactivation
+  is sleep-state specific. Memories are encoded in neural ensembles during learning
+  and are stabilized by post-learning reactivation. Integrating recent experiences
+  into existing memories ensures that memories contain the most recently available
+  information, but how the brain accomplishes this critical process remains unclear.
+  Here we show that in mice, a strong aversive experience drives offline ensemble
+  reactivation of not only the recent aversive memory but also a neutral memory formed
+  2 days before, linking fear of the recent aversive memory to the previous neutral
+  memory. Fear specifically links retrospectively, but not prospectively, to neutral
+  memories across days. Consistent with previous studies, we find that the recent
+  aversive memory ensemble is reactivated during the offline period after learning.
+  However, a strong aversive experience also increases co-reactivation of the aversive
+  and neutral memory ensembles during the offline period. Ensemble co-reactivation
+  occurs more during wake than during sleep. Finally, the expression of fear in the
+  neutral context is associated with reactivation of the shared ensemble between the
+  aversive and neutral memories. Collectively, these results demonstrate that offline
+  ensemble co-reactivation is a neural mechanism by which memories are integrated
+  across days.
 ethicsApproval: []
 id: DANDI:000718/draft
 identifier: DANDI:000718
-keywords: []
+keywords:
+- hippocampus
+- learning
+- memory
+- memory-linking
+- aversive
+- ensemble
+- co-activity
+- ' reactivation'
+- offline
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000718/versions/draft/assets/
-name: Aversive experience drives offline ensemble reactivation to link memories across
-  days
+name: Offline ensemble co-reactivation links memories across days
 protocol: []
 relatedResource: []
 repository: https://dandiarchive.org
