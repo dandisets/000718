@@ -50,7 +50,7 @@ citation: Zaki, Yosif; Pennington, Zachary T.; Morales-Rodriguez, Denisse; Bacon
   Dong, Zhe; Lamsifer, Sophia; Chen, Hung-Tu; Carrillo Segura, Simón; Christenson
   Wick, Zoé; Silva, Alcino J.; Rajan, Kanaka; van der Meer, Matthijs; Fenton, André;
   Shuman, Tristan; Cai, Denise J. (2026) Offline ensemble co-reactivation links memories
-  across days (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000718/draft
+  across days (Version 0.260825.1902) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000718/0.260825.1902
 contributor:
 - affiliation:
   - identifier: https://ror.org/04a9tmd77
@@ -346,6 +346,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-11-30T17:07:14.197351+00:00'
+datePublished: '2026-08-25T19:02:58.018101+00:00'
 description: Memories are encoded in neural ensembles during learning and are stabilized
   by post-learning reactivation. Integrating recent experiences into existing memories
   ensures that memories contain the most recently available information, but how the
@@ -362,8 +363,9 @@ description: Memories are encoded in neural ensembles during learning and are st
   reactivation of the shared ensemble between the aversive and neutral memories. Collectively,
   these results demonstrate that offline ensemble co-reactivation is a neural mechanism
   by which memories are integrated across days.
+doi: 10.48324/dandi.000718/0.260825.1902
 ethicsApproval: []
-id: DANDI:000718/draft
+id: DANDI:000718/0.260825.1902
 identifier: DANDI:000718
 keywords:
 - hippocampus
@@ -378,8 +380,20 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000718/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000718/0.260825.1902/assets.yaml
 name: Offline ensemble co-reactivation links memories across days
+publishedBy:
+  endDate: '2026-08-25T19:02:58.018101+00:00'
+  id: urn:uuid:88ca4a61-0983-43c6-ba30-5104485c39ff
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-08-25T19:02:58.018101+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:d9683dfc-22a4-491b-8fb6-cdc6f8ec04c4
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 10.1038/s41586-024-08168-4
   name: Offline ensemble co-reactivation links memories across days
@@ -398,6 +412,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
-url: https://dandiarchive.org/dandiset/000718/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000718/0.260825.1902
+version: 0.260825.1902
 wasGeneratedBy: []
