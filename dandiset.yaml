@@ -50,7 +50,7 @@ citation: Zaki, Yosif; Pennington, Zachary T.; Morales-Rodriguez, Denisse; Bacon
   Dong, Zhe; Lamsifer, Sophia; Chen, Hung-Tu; Carrillo Segura, Simón; Christenson
   Wick, Zoé; Silva, Alcino J.; Rajan, Kanaka; van der Meer, Matthijs; Fenton, André;
   Shuman, Tristan; Cai, Denise J. (2026) Offline ensemble co-reactivation links memories
-  across days (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000718/draft
+  across days (Version 0.261122.2159) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000718/0.261122.2159
 contributor:
 - affiliation:
   - identifier: https://ror.org/04a9tmd77
@@ -346,6 +346,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-11-30T17:07:14.197351+00:00'
+datePublished: '2026-11-22T21:59:09.780322+00:00'
 description: Memories are encoded in neural ensembles during learning and are stabilized
   by post-learning reactivation. Integrating recent experiences into existing memories
   ensures that memories contain the most recently available information, but how the
@@ -362,8 +363,9 @@ description: Memories are encoded in neural ensembles during learning and are st
   reactivation of the shared ensemble between the aversive and neutral memories. Collectively,
   these results demonstrate that offline ensemble co-reactivation is a neural mechanism
   by which memories are integrated across days.
+doi: 10.48324/dandi.000718/0.261122.2159
 ethicsApproval: []
-id: DANDI:000718/draft
+id: DANDI:000718/0.261122.2159
 identifier: DANDI:000718
 keywords:
 - hippocampus
@@ -378,8 +380,20 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000718/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000718/0.261122.2159/assets.yaml
 name: Offline ensemble co-reactivation links memories across days
+publishedBy:
+  endDate: '2026-11-22T21:59:09.780322+00:00'
+  id: urn:uuid:effbe463-6467-4e9a-ba46-750279db53d8
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-11-22T21:59:09.780322+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:668fc7de-16dd-466c-83f3-eea95d846ec5
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 10.1038/s41586-024-08168-4
   name: Offline ensemble co-reactivation links memories across days
@@ -395,9 +409,28 @@ relatedResource:
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/catalystneuro/cai-lab-to-nwb
+releaseNotes: "## Changes since version 0.260825.1902\n\nThree of the 12 session files
+  were re-converted with the corrected conversion ([catalystneuro/cai-lab-to-nwb](https://github.com/catalystneuro/cai-lab-to-nwb),
+  PR [#27](https://github.com/catalystneuro/cai-lab-to-nwb/pull/27), [issue #26](https://github.com/catalystneuro/cai-lab-to-nwb/issues/26)):\n
+  \n- `sub-Ca-EEG2-1/sub-Ca-EEG2-1_ses-NeutralExposure_image+ophys.nwb`\n- `sub-Ca-EEG3-4/sub-Ca-EEG3-4_ses-OfflineDay1Session1_ophys.nwb`\n
+  - `sub-Ca-EEG3-4/sub-Ca-EEG3-4_ses-Recall2_image+ophys.nwb`\n\nThe other files are
+  unchanged. File names and the number of assets (20) are the same.\n\n**Corrections**\n
+  \n- **Frame times.** The `OnePhotonSeries` timestamps in these three files are now
+  the frame times recorded by the Miniscope software (`timeStamps.csv`), one per frame
+  over the whole recording.\n- **Surgery and virus text.** Minus signs in `general/surgery`
+  and `general/virus` are now stored correctly.\n- **Video path.** The behaviour video's
+  `external_file` path now uses a forward slash.\n- **Format.** The three files are
+  now NWB 2.8.0. Some integer columns are stored as 64-bit integers.\n\n**Known gaps**\n
+  \n- The Ca_EEG2-1 behaviour sessions (NeutralExposure, FC, Recall1) may start one
+  hour later than the clock of the offline recordings and the telemetry. The start
+  times are unchanged.\n- The Week file's start time is labelled UTC; the session
+  files use the US Eastern offset (-04:00).\n- The dandiset holds two mice (Ca_EEG2-1
+  and Ca_EEG3-4), and only the first 10 min recording of each offline period.\n- Ca_EEG3-4
+  has no cell registration.\n- The shock amplitudes in the aversive encoding descriptions
+  (1.5 and 0.25) have no unit; the paper gives mA."
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
-url: https://dandiarchive.org/dandiset/000718/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000718/0.261122.2159
+version: 0.261122.2159
 wasGeneratedBy: []
